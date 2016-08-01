@@ -1,0 +1,267 @@
+/* ========================================================================== *\
+   RESET
+\* ========================================================================== */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+/* ========================================================================== *\
+   HTML Style ELEMENTS (default)
+\* ========================================================================== */
+BODY {
+	font-family: "Josefin Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* Imagem de fundo */
+html { 
+    background: url(general.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* logo */
+#logo {
+	position: relative;
+	min-height: 185px;
+	background: url(logo.png) no-repeat;
+	background-position: center center;	
+}
+
+/* Formulário nickname centrado */
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 90%;
+}
+@media (min-width: 768px) {
+    .inner {
+        width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .inner {
+        width: 35%;
+    }
+}
+@media (min-width: 1200px) {
+    .inner {
+        width: 30%;
+    }
+}
+/* formulário nickname */
+#container_nickname {
+    width:100%;
+    background-color: #697a83;
+    opacity: 0.6;
+    font-size: 2.2em;
+    text-align: center;
+    padding: 1em;
+}
+.general_textbox {
+	width: 100%;
+	padding: 0.4% 1%;
+	background-color: rgba(255,255,255,0.2);
+	height: 54px;
+  	border: none;
+    font-size: 0.7em;
+    color: #FFF;
+    font-family: inherit;
+    font-weight: 100;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    /* Small devices (tablets, 768px and up) */
+    .general_textbox {
+        width: 80%;
+    }
+}
+@media (min-width: 992px) {
+    /* Medium devices (desktops, 992px and up) */
+    .general_textbox {
+        width: 75%;
+    }
+}
+@media (min-width: 1200px) {
+    /* Large devices (large desktops, 1200px and up) */
+    .general_textbox {
+        width: 70%;
+    }
+}
+button {
+    width: 90%;
+	background-color: rgba(0, 0, 0, 0.4);
+    color: #C8C8C8;
+	text-align: center;
+	padding: 0.4% 1%;
+	margin: 14px 0 0;
+	outline: none;
+	border: none;
+  	line-height: normal;
+    font-family: inherit;
+	font-size: 1.0em;
+	font-weight: 100;
+	cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;    
+}
+@media (min-width: 768px) {
+    /* Small devices (tablets, 768px and up) */
+    button {
+        width: 80%;
+    }
+}
+@media (min-width: 992px) {
+    /* Medium devices (desktops, 992px and up) */
+    button {
+        width: 75%;
+    }
+}
+@media (min-width: 1200px) {
+    /* Large devices (large desktops, 1200px and up) */
+    button {
+        width: 70%;
+    }
+}
+button:HOVER {
+	background: rgba(0, 0, 0, 1);
+}
+
+/* ========================================================================== *\
+   HELPERS > Notifications
+\* ========================================================================== */
+.bg-success {
+    background-color: rgba(193, 237, 20, 0.90);
+    font-size: 0.6em;
+    color: #000;
+    padding: 0.5em;
+}
+.bg-error {
+    background-color: rgba(208, 26, 15, 0.90);
+    font-size: 0.6em;
+    color: #FFF;
+    padding: 0.5em;
+}
+
+/* Chat */
+#sidebar {
+    width: 200px;
+    height: inherit;
+    float: left;
+    background-color: rgba(128,128,128,0.95);
+}
+#primary {
+    margin-left: 200px;
+    height: inherit;
+}
+#log {
+    height: 80%;
+    background-color: rgba(169,169,169,0.95);
+    overflow: auto;
+}
+#composer {
+    height: 20%;
+    background-color: rgba(195,195,195,0.95);
+}
+
+#composer, #log
+{
+    padding: 20px;
+}
+
+.textbox_message {
+	width: 100%;
+	padding: 0.4% 1%;
+	background-color: rgba(255,255,255,0.2);
+	height: 54px;
+  	border: none;
+    font-size: 2em;
+    color: #000;
+    font-family: inherit;
+    font-weight: 100;
+}
+#btn_send {
+  width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+  color: #C8C8C8;
+	text-align: center;
+	padding: 0.4% 1%;
+	margin: 14px 0 0;
+	outline: none;
+	border: none;
+  line-height: normal;
+  font-family: inherit;
+	font-size: 1.0em;
+	font-weight: 100;
+	cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;    
+}
+#btn_send:HOVER {
+	background: rgba(0, 0, 0, 1);
+}
+.long-content {
+    font-size: 2em;
+    height: 3000px;
+    display: block;
+}
