@@ -25,5 +25,8 @@ This chat system will have the following features:
 - Sending messages;
 - Receiving messages.
 
+## Tool box
+To implement this chat we will use several tools that complement each other. Some of these tools have been installed with XAMPP, allowing you to easily install a web server on your local machine.
+
 ## License
 _Public chat_ is freely distributable under the terms of the [MIT license](https://github.com/SandroMiguel/public-chat/blob/master/LICENSE).
