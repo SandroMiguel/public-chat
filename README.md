@@ -28,5 +28,9 @@ This chat system will have the following features:
 ## Tool box
 To implement this chat we will use several tools that complement each other. Some of these tools have been installed with XAMPP, allowing you to easily install a web server on your local machine.
 
+## PHP
+PHP, a recursive acronym for "PHP: Hypertext Preprocessor" (originally Personal Home Page) is a free and open source server-side programming language. PHP is, for example, used by Facebook and WordPress. In 2014 was the language of choice for 82% of websites (where programming language is known).
+In this chat system, which we are going to build, PHP has the function of communicating with the database for storing and querying messages.
+
 ## License
 _Public chat_ is freely distributable under the terms of the [MIT license](https://github.com/SandroMiguel/public-chat/blob/master/LICENSE).
