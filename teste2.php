@@ -13,7 +13,10 @@ try {
     echo json_encode($messages);
 } catch (Exception $e) {
     $message = 'Ocorreu um erro.';
-    echo json_encode(
+	if (DEFAULT_APP_DEBUG) {
+		$message .= ' ' . $e->getMessage();
+	}
+	echo json_encode(
         array(
             "action"        =>  "insert",
             "notification"  =>  "error",

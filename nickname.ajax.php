@@ -38,6 +38,9 @@ try {
     }
 } catch (Exception $e) {
     $message = 'Ocorreu um erro.';
+    if (DEFAULT_APP_DEBUG) {
+    	$message .= ' ' . $e->getMessage();
+    }
     echo json_encode(
         array(
             "action"        =>  "insert",
@@ -61,6 +64,9 @@ try {
     );    
 } catch (Exception $e) {
     $message = 'Ocorreu um erro.';
+	if (DEFAULT_APP_DEBUG) {
+		$message .= ' ' . $e->getMessage();
+	}
     echo json_encode(
         array(
             "action"        =>  "insert",

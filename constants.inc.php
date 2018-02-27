@@ -1,4 +1,7 @@
 <?php
+# Configuração geral
+define ('DEFAULT_APP_DEBUG', 1);
+
 # Base de dados
 define('DB_HOSTNAME',   'localhost');
 define('DB_USERNAME',   'chat');
