@@ -1,4 +1,4 @@
-# Public chat v.0.3
+# Public chat v.0.4
 Public chat room using PHP
 
 Complete tutorial (em português): https://www.revista-programar.info/artigos/sistema-de-chat-publico-em-php/
