@@ -1,3 +1,5 @@
+**DEPRECATED** - this repository is no longer being maintained.
+
 # Public chat v.0.4
 
 Public chat room using PHP
